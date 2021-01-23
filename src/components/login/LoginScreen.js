@@ -44,7 +44,8 @@ export const LoginScreen = ({ history }) => {
                                 aria-label="Username" 
                                 aria-describedby="basic-addon1"
                                 value= { user }
-                                onChange={ handleInputChange }/>
+                                onChange={ handleInputChange }
+                                autoComplete='off'/>
                         </div>
                     </div>
                 </div>
